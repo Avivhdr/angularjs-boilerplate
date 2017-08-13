@@ -1,0 +1,19 @@
+{
+  "name": "angularjs-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avivhdr/angularjs-boilerplate.git"
+  },
+  "author": "aviv hadar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avivhdr/angularjs-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Avivhdr/angularjs-boilerplate#readme"
+}
