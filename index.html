@@ -26,42 +26,14 @@
     </div>
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
-            <li ui-sref-active="active"><a ui-sref="home"><b>Main</b></a></li>
-            <li ui-sref-active="active"><a ui-sref="about"><b>about</b></a></li>
+            <li ui-sref-active="active"><a ui-sref="home"><b>Compie</b></a></li>
+            <li ui-sref-active="active"><a ui-sref="about"><b></b></a></li>
         </ul>
     </div>
 </nav>
 <ui-view></ui-view>
 
 
-
-
-
-
-
-
-<!--<nav class="navbar navbar-inverse navbar-fixed-top">-->
-    <!--<div class="container-fluid">-->
-        <!--<div class="navbar-header">-->
-            <!--<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"-->
-                    <!--data-target="#bs-example-navbar-collapse-1" aria-expanded="false">-->
-                <!--<span class="sr-only">Toggle navigation</span>-->
-                <!--<span class="icon-bar"></span>-->
-                <!--<span class="icon-bar"></span>-->
-                <!--<span class="icon-bar"></span>-->
-            <!--</button>-->
-            <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
-                <!--<ul class="nav navbar-nav">-->
-                    <!--&lt;!&ndash;<li><a ui-sref="home"><b>Home</b> </a></li>&ndash;&gt;-->
-                    <!--&lt;!&ndash;<li><a ui-sref="about"><b>About</b> </a></li>&ndash;&gt;-->
-                    <!--<li ui-sref-active="active"><a ui-sref="home"><b>Home</b></a></li>-->
-                    <!--<li ui-sref-active="active"><a ui-sref="about"><b>About</b></a></li>-->
-                <!--</ul>-->
-            <!--</div>-->
-        <!--</div>-->
-    <!--</div>-->
-<!--</nav>-->
-<!--<ui-view></ui-view>-->
 
 
 <!--<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>-->
@@ -72,24 +44,32 @@
 <!--<script src="//angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.5.0.js"></script>-->
 <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>-->
 <!--<script src="https://cdn.jsdelivr.net/angular.ui-router/1.0.1/angular-ui-router.min.js"></script>-->
-/////////////////
+
+
+
 <script src="./node_modules/jquery/dist/jquery.min.js"></script>
 <script src="./node_modules/angular/angular.min.js"></script>
+<script src="app/initial/myApp.module.js"></script>
+<script src="app/directives/googlePlaces.directive.js"></script>
+
+<!--<script src="http://jvandemo.github.io/angularjs-google-maps/dist/angularjs-google-maps.js"></script>-->
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYsRmZrYQJl8Gg7MVqTUom5tqmX_98wCU&libraries=places" async defer></script>
+
+
+
 <script src="./node_modules/angular-animate/angular-animate.min.js"></script>
 <script src="./node_modules/angular-touch/angular-touch.min.js"></script>
 <script src="./node_modules/angular-sanitize/angular-sanitize.min.js"></script>
 <script src="./node_modules/angular-ui-router/release/angular-ui-router.min.js"></script>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-/////////////////
-<script src="app/initial/myApp.module.js"></script>
 <script src="app/initial/myApp.config.js"></script>
 <script src="app/initial/myApp.run.js"></script>
 <script src="app/initial/service.module.js"></script>
-
 <script src="app/services/util.service.js"></script>
-
+<script src="app/services/distance.service.js"></script>
 <script src="app/components/Home.Controller.js"></script>
 <script src="app/components/About.Controller.js"></script>
+
 
 </body>
 </html>

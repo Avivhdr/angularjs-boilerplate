@@ -1,4 +1,4 @@
 (function () {
     angular
-        .module('serviceModule', ['myApp'])
+        .module('serviceModule', [])
 })();

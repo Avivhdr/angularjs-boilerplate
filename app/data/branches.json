@@ -1,0 +1,76 @@
+{
+  "branches": [
+    {
+      "chain": "Mega",
+      "location": "Tel Aviv-Yafo, Israel",
+      "lat": "32.0852999",
+      "lon": "34.78176759999997"
+    },
+    {
+      "chain": "Mega",
+      "location": "Givatayim, Israel",
+      "lat": "32.072176",
+      "lon": "34.808870999999954"
+    },
+    {
+      "chain": "Mega",
+      "location": "Ramat Gan, Israel",
+      "lat": "32.068424",
+      "lon": "34.82478500000002"
+    },
+    {
+      "chain": "Shufer-Sal",
+      "location": "Eilat, Israel",
+      "lat": "29.557669",
+      "lon": "34.951925000000074"
+    },
+    {
+      "chain": "Shufer-Sal",
+      "location": "Dimona, Israel",
+      "lat": "31.069419",
+      "lon": "35.03336300000001"
+    },
+    {
+      "chain": "Shufer-Sal",
+      "location": "Arad, Israel",
+      "lat": "31.261447",
+      "lon": "35.21486200000004"
+    },
+    {
+      "chain": "AM-PM",
+      "location": "Herzliya, Israel",
+      "lat": "32.162413",
+      "lon": "34.84467500000005"
+    },
+    {
+      "chain": "AM-PM",
+      "location": "Rosh Haayin, Israel",
+      "lat": "32.095838",
+      "lon": "34.952177000000006"
+    },
+    {
+      "chain": "AM-PM",
+      "location": "Metula, Israel",
+      "lat": "33.27723199999999",
+      "lon": "35.57823499999995"
+    },
+    {
+      "chain": "Rami Levy",
+      "location": "Petah Tikva, Israel",
+      "lat": "32.084041",
+      "lon": "34.887762000000066"
+    },
+    {
+      "chain": "Rami Levy",
+      "location": "Jerusalem, Israel",
+      "lat": "31.768319",
+      "lon": "35.21370999999999"
+    },
+    {
+      "chain": "Rami Levy",
+      "location": "Kiryat Ekron, Israel",
+      "lat": "31.862547",
+      "lon": "34.82195760000002"
+    }
+  ]
+}
